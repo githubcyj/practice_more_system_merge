@@ -55,4 +55,7 @@ export default defineConfig({
     schemaPath: join(__dirname, 'oneapi.json'),
     mock: false,
   },
+  devServer: {
+      port: 8002
+  }
 });

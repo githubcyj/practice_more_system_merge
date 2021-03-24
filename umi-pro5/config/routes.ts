@@ -19,7 +19,7 @@
     path: '/welcome',
     name: 'welcome',
     icon: 'smile',
-    component: './Welcome',
+    component: './TableList',
   },
   {
     path: '/admin',
@@ -32,7 +32,7 @@
         path: '/admin/sub-page',
         name: 'sub-page',
         icon: 'smile',
-        component: './Welcome',
+        component: './TableList',
       },
     ],
   },
@@ -40,7 +40,7 @@
     name: 'list.table-list',
     icon: 'table',
     path: '/list',
-    component: './TableList',
+    component: './TestPage',
   },
   {
     path: '/',
