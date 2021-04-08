@@ -78,8 +78,8 @@ export default class BasicPage extends CustomPage {
         {/* <Button type='primary' onClick={this.testFunc}>test</Button> */}
         <CustomTable wrappedComponentRef={this.tableRef} {...getTableConfig(this, tableData)} location={location} />
 
-        <DispatchDialog ref={this.dispatchDialogRef} />
-        <StartBuildingDialog ref={this.startBuildingDialogRef} />
+        {/* <DispatchDialog ref={this.dispatchDialogRef} />
+        <StartBuildingDialog ref={this.startBuildingDialogRef} /> */}
       </PageContainer>
     )
   }

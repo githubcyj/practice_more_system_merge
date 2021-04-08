@@ -39,8 +39,8 @@ export default class DispatchDialog extends Dialog {
   }
 
   render () {
-    return super.render(
-      <Form {...getFormConfig(this)} />
-    )
+    // return super.render(
+    //   <Form {...getFormConfig(this)} />
+    // )
   }
 }

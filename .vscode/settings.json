@@ -1,0 +1,15 @@
+{
+    // tab 大小为2个空格
+    "editor.tabSize": 2,
+    // 编辑器换行
+    "editor.wordWrap": "off",
+    // 开启 vscode 文件路径导航
+    "breadcrumbs.enabled": true,
+    // 保存时格式化
+    "editor.formatOnSave": true,
+    // ts保存
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+
+}
